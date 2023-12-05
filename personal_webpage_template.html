@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name</title>
     <style>
+        .header {
+            background-color: #222;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .profile-pic {
+            width: 300px; /* Adjust the size as needed */
+            height: auto; /* Adjust the size as needed */
+            border-radius: 50%; /* Circular shape */
+            margin-right: 20px; /* Spacing between image and name */
+        }
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -44,8 +59,11 @@
 </head>
 <body>
     <div class="header">
-        <h1>Imahn Shekhzadeh</h1>
-        <p>ML/AI, Graduate Researcher</p>
+        <img src="imahn-picture.png" alt="Imahn Shekhzadeh" class="profile-pic" />
+        <div>
+            <h1>Imahn Shekhzadeh</h1>
+            <p>ML/AI, Graduate Researcher</p>
+        </div>
     </div>
 
     <div class="content">
@@ -61,7 +79,6 @@
     </div>
 
     <div class="footer">
-        <p>Please feel free to reach out!</p>
         <!-- Logo Images with Links -->
         <a href="https://www.linkedin.com/in/imahn-shekhzadeh-0bab6523a/" target="_blank">
             <img src="logos/LI-In-Bug.png" alt="" class="footer-logo" />

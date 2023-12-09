@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
     <title>Imahn Shekhzadeh</title>
     <style>
         .header {
@@ -102,7 +103,7 @@
     <div class="content">
         <h2>About Me</h2>
         <p>
-            I am an ML researcher, currently a PhD candidate at the University of Geneva, supervised by <a href="https://people.hes-so.ch/fr/profile/1801344747-alexandros-kalousis">Prof. Kalousis</a> and <a href = "https://datascience.unige.ch/reseau-dexpert-es/stephane-marchand-maillet">Prof. Stéphane Marchand-Maillet</a>. My research interests are currently at the intersection of deep learning and the physical sciences. <!-- I am also interested in "pure" deep learning, e.g. deep generative models. Currently, I am very fascinated by neural OT, generalized Schrödinger bridges, and Wasserstein Lagrangian Flows. -->
+            I am an ML researcher, currently a PhD candidate at the University of Geneva, supervised by <a href="https://people.hes-so.ch/fr/profile/1801344747-alexandros-kalousis">Prof. Kalousis</a> and <a href = "https://datascience.unige.ch/reseau-dexpert-es/stephane-marchand-maillet">Prof. Marchand-Maillet</a>. My research interests are currently at the intersection of deep learning and the physical sciences. <!-- I am also interested in "pure" deep learning, e.g. deep generative models. Currently, I am very fascinated by neural OT, generalized Schrödinger bridges, and Wasserstein Lagrangian Flows. -->
         </p>            
         
         <p>I have also been a member of the <a href="https://www.mathges.hamburg/Veranstaltungen.html">Hamburg Mathematical Society in Hamburg</a> since 2018.</p>
@@ -119,7 +120,7 @@
         <p>
             <b>
                 <a href="https://arxiv.org/abs/2310.13402">Calibrating Neural Simulation-Based Inference with Differentiable Coverage Probability</a>
-            </b> (NeurIPS 2023) <p></p>
+            </b> (NeurIPS, 2023) <p></p>
 
             Maciej Falkiewicz*, Naoya Takeishi*, <b>Imahn Shekhzadeh*</b>,
             Antoine Wehenkel, Arnaud Delaunoy, Gilles Louppe, 
@@ -128,6 +129,19 @@
             <u>Abstract:</u> <p></p>
 
             <i>Bayesian inference allows expressing the uncertainty of posterior belief under a probabilistic model given prior information and the likelihood of the evidence. Predominantly, the likelihood function is only implicitly established by a simulator posing the need for simulation-based inference (SBI). However, the existing algorithms can yield overconfident posteriors (Hermans *et al.*, 2022) defeating the whole purpose of credibility if the uncertainty quantification is inaccurate. We propose to include a calibration term directly into the training objective of the neural model in selected amortized SBI techniques. By introducing a relaxation of the classical formulation of calibration error we enable end-to-end backpropagation. The proposed method is not tied to any particular neural model and brings moderate computational overhead compared to the profits it introduces. It is directly applicable to existing computational pipelines allowing reliable black-box posterior inference. We empirically show on six benchmark problems that the proposed method achieves competitive or better results in terms of coverage and expected posterior density than the previously existing approaches.</i>
+        </p>
+
+        <p>
+            <b><a href="https://neurips.cc/virtual/2023/76156">Advancing Generative Modelling of Calorimeter Showers on Three Frontiers</a></b> (NeurIPS ML$4$PhysicalSciences Workshop, 2023)<p></p>
+
+            Erik Buhmann, Sascha Diefenbacher, Engin Eren, Frank Gaede, Gregor Kasieczka, William Korcari, Anatolii Korol, Claudius Krause, Katja Krüger, Peter McKeown, <b>Imahn Shekhzadeh</b>, David Shih <p></p>
+
+            <u>Abstract:</u> <p></p>
+
+            <i>
+                Generative machine learning can be used to augment and speed-up traditional physics simulations, i.e. the simulation of elementary particles in the detector of collider experiments. Like many physics data, these calorimeter showers can either be represented as images or as permutation-invariant lists of measurements, i.e. as point clouds. We advance the generative models for calorimeter showers on three frontiers: (1) increasing the number of conditional features for precise energy- and angle-wise generation with the bounded bottleneck auto-encoder (BIB-AE), (2) improving generation fidelity using a normalizing flow model, dubbed "Layer-to-Layer-Flows" (L$2$LFlows), (3) developing a diffusion model for geometry-independent calorimeter point cloud scalable to $\mathcal O$(1000) points, called CaloClouds, and distilling it into a consistency model for fast single-shot sampling.
+            </i>
+
         </p>
 
         <p>

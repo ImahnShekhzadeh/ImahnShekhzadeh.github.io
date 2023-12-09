@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name</title>
+    <title>Imahn Shekhzadeh</title>
     <style>
         .header {
             background-color: #222;
@@ -65,6 +65,12 @@
             width: 115px; /* Adjust the width as needed */
             height: auto;
         }
+        .small-text {
+            font-size: 0.8em; /* Relative size*/
+        }
+        .tab-indent {                               
+            padding-left: 2em; /* or however much space you want */
+        } 
     </style>
 </head>
 <body>
@@ -108,15 +114,27 @@
             I am also an Alumni of the <a href="https://www.studienstiftung.de/en/">German National Academic Foundation</a>.
         </p>
 
+
         <h2>Publications</h2>
         <p>
-            <b><a href="https://iopscience.iop.org/article/10.1088/1748-0221/18/10/P10017">L2LFlows: generating high-fidelity 3D calorimeter images</a></b> (Journal of Instrumentation, 2023)
+            <b>
+                <a href="https://arxiv.org/abs/2310.13402">Calibrating Neural Simulation-Based Inference with Differentiable Coverage Probability</a>
+            </b> (NeurIPS 2023) <p></p>
+
+            Maciej Falkiewicz*, Naoya Takeishi*, <b>Imahn Shekhzadeh*</b>,
+            Antoine Wehenkel, Arnaud Delaunoy, Gilles Louppe, 
+            Alexandros Kalousis<span class="small-text tab-indent">(* equal contribution)</span> <p></p>
+
+            <u>Abstract:</u> <p></p>
+
+            <i>Bayesian inference allows expressing the uncertainty of posterior belief under a probabilistic model given prior information and the likelihood of the evidence. Predominantly, the likelihood function is only implicitly established by a simulator posing the need for simulation-based inference (SBI). However, the existing algorithms can yield overconfident posteriors (Hermans *et al.*, 2022) defeating the whole purpose of credibility if the uncertainty quantification is inaccurate. We propose to include a calibration term directly into the training objective of the neural model in selected amortized SBI techniques. By introducing a relaxation of the classical formulation of calibration error we enable end-to-end backpropagation. The proposed method is not tied to any particular neural model and brings moderate computational overhead compared to the profits it introduces. It is directly applicable to existing computational pipelines allowing reliable black-box posterior inference. We empirically show on six benchmark problems that the proposed method achieves competitive or better results in terms of coverage and expected posterior density than the previously existing approaches.</i>
         </p>
+
         <p>
+            <b><a href="https://iopscience.iop.org/article/10.1088/1748-0221/18/10/P10017">L2LFlows: generating high-fidelity 3D calorimeter images</a></b> (Journal of Instrumentation, 2023) <p></p>
             
-            <p></p>
-            Sascha Diefenbacher, Engin Eren, Frank Gaede, Gregor Kasieczka, Claudius Krause*, <b>Imahn Shekhzadeh*</b>, David Shih <p></p>
-            * equal contribution <p></p>
+            Sascha Diefenbacher, Engin Eren, Frank Gaede, Gregor Kasieczka, Claudius Krause*, <b>Imahn Shekhzadeh*</b>, David Shih 
+            <span class="small-text tab-indent">(* equal contribution)</span> <p></p>
 
             <u>Abstract:</u> <p></p>
             
